@@ -120,5 +120,5 @@ gulp.task('build-css', function() {
 });
 
 gulp.task('default', ['copyAssets', 'build-js', 'build-css'], function() {
-    return gutil.log('Gulp is running!')
+    return gutil.log('This message is more cool, bro')
 });
